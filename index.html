@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/7730/7730521.png" type="image/x-icon">
+  <link rel="stylesheet" href="./style.css">
+  <title>Calculo do IMC</title>
+</head>
+
+
+<body>
+  <div id="container">
+    <h1 class="title">Calcule o seu IMC</h1>
+    <div id="form">
+      <form onsubmit="return calcular (event)">
+        <label for="peso">Digite seu peso:</label><br>
+        <input type="text" name="peso" id="peso" placeholder="ex: 65"><br><br>
+
+        <label for="altura">Digite sua altura:</label><br>
+        <input type="text" name="altura" id="altura" placeholder="ex: 1.65"><br><br>
+
+        <input type="submit" name="calculo" id="calculo" value="Calcular IMC">
+      </form>
+    </div>
+    <div id="mensagem"></div>
+    <div class="logo">
+      <img id='logo' src="./img/logo.jpg" alt="logo de SergioDev">
+      <span>SergioDev</span>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
+
+</html>

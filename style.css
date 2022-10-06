@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container{ 
+   width: 360px;
+   height: 740px; 
+   background-image: url("https://th.bing.com/th/id/OIP.V54dHV64POA3ZB4W_cgk4gHaEo?w=306&h=191&c=7&r=0&o=5&pid=1.7");
+   background-repeat:  no-repeat;
+   background-size: cover;
+   background-position: right;
+}
+.title {
+  padding-top: 6rem ;
+  font-weight: 900 bold;
+  font-family: Impact, 'Haettenschweiler', Arial Narrow Bold, sans-serif; 
+  text-align: center;
+}
+#form {
+  display: flex;  
+  align-items: center;
+  justify-content: center; 
+  padding-top: 4rem; 
+}
+label {
+   font-size: 1.3rem;
+   font-weight: 500;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   padding-bottom: 4rem;
+}
+input {
+   width: 50vw;
+   height: 2rem;
+   border: none;
+   border-radius: 4rem;
+   padding: 1rem;
+   background: rgb(127, 4, 193);
+   color: aliceblue;
+   margin-bottom: 3rem;
+}
+#calculo {
+   height: 3rem;
+   font-size: 1.4rem;
+   color: #aca3a3;
+   padding-top: 1rem;
+   text-align: center;
+   cursor: progress;
+}
+#mensagem {
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   color: #050303;
+   font-size: 1.2rem;
+   font-weight: 900;
+   text-align: center;
+   background: #aca3a390;
+   border-radius: 0.4rem;
+}
+.logo{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2%;
+  position: static;
+}
+#logo {
+   width: 30px;
+   opacity: 0.7;
+   border-radius: 6px;
+}
+span {
+   padding-left: 0.5rem;
+   font-size: 1.5rem;
+   font-weight: bold;
+
+}
+@media screen and (min-width:360px ) and (max-width: 699px) {
+    #container  {
+      width: 700px;
+    }
+}
+@media screen and (min-width:699px ) and (max-width: 1450px) {
+   #container  {
+     width: 100vw;
+     height: 100vh;
+   }
+ 
+}
